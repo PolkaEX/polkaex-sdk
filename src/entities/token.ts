@@ -170,5 +170,12 @@ export const WETH = {
     18,
     'WOKT',
     'Wrapped OKExChain'
+  ),
+  [ChainId.DUSTY]: new Token(
+    ChainId.DUSTY,
+    '0x2219845942d28716c0F7C605765fABDcA1a7d9E0',
+    18,
+    'WPLD',
+    'Wrapped Dusty'
   )
 }
