@@ -1,17 +1,17 @@
 {
-  "name": "@sushiswap/sdk",
+  "name": "@polkaex/sdk",
   "license": "MIT",
   "version": "5.0.0-canary.7",
-  "description": "🛠 An SDK for building applications on top of Sushiswap.",
+  "description": "🛠 An SDK for building applications on top of Polkaex.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/polkaex/polkaex-sdk",
   "keywords": [
     "uniswap",
-    "sushiswap",
+    "polkaex",
     "ethereum"
   ],
   "module": "dist/sdk.esm.js",
