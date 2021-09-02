@@ -173,7 +173,7 @@ export const WETH = {
   ),
   [ChainId.DUSTY]: new Token(
     ChainId.DUSTY,
-    '0x877A9D921ecfDA260C27932e19A75588024A66B9',
+    '0xd3435b369d25e7DFcbdf7371B23DBa8bbb734d49',
     18,
     'WPLD',
     'Wrapped Dusty'
