@@ -23,7 +23,8 @@ export declare enum ChainId {
     HARMONY_TESTNET = 1666700000,
     OKEX = 66,
     OKEX_TESTNET = 65,
-    DUSTY = 80
+    DUSTY = 80,
+    SHIBUYA = 81
 }
 export declare enum TradeType {
     EXACT_INPUT = 0,

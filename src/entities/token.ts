@@ -176,6 +176,13 @@ export const WETH = {
     '0xd3435b369d25e7DFcbdf7371B23DBa8bbb734d49',
     18,
     'WPLD',
-    'Wrapped Dusty'
+    'Wrapped PLD'
+  ),
+  [ChainId.SHIBUYA]: new Token(
+    ChainId.SHIBUYA,
+    '0x04efa209F9e74E612a529c393Cf9F1141E696F06',
+    18,
+    'WSBY',
+    'Wrapped SBY'
   )
 }
