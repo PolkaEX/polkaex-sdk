@@ -37,6 +37,8 @@ export class Currency {
 
   public static readonly SBY: Currency = new Currency(18, 'SBY', 'Shibuya Coin')
 
+  public static readonly SDN: Currency = new Currency(18, 'SDN', 'Shiden Coin')
+
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
@@ -62,6 +64,7 @@ export class Currency {
     [ChainId.OKEX_TESTNET]: Currency.OKT,
     [ChainId.DUSTY]: Currency.PLD,
     [ChainId.SHIBUYA]: Currency.SBY,
+    [ChainId.SHIDEN]: Currency.SDN,
   }
 
   /**

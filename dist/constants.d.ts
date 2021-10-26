@@ -24,7 +24,8 @@ export declare enum ChainId {
     OKEX = 66,
     OKEX_TESTNET = 65,
     DUSTY = 80,
-    SHIBUYA = 81
+    SHIBUYA = 81,
+    SHIDEN = 336
 }
 export declare enum TradeType {
     EXACT_INPUT = 0,

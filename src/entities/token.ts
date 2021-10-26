@@ -184,5 +184,12 @@ export const WETH = {
     18,
     'WSBY',
     'Wrapped SBY'
+  ),
+  [ChainId.SHIDEN]: new Token(
+    ChainId.SHIDEN,
+    '0x0f933Dc137D21cA519ae4C7E93f87a4C8EF365Ef',
+    18,
+    'WSDN',
+    'Wrapped SDN'
   )
 }

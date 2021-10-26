@@ -20,6 +20,7 @@ export declare class Currency {
     static readonly OKT: Currency;
     static readonly PLD: Currency;
     static readonly SBY: Currency;
+    static readonly SDN: Currency;
     static readonly NATIVE: {
         1: Currency;
         3: Currency;
@@ -45,6 +46,7 @@ export declare class Currency {
         65: Currency;
         80: Currency;
         81: Currency;
+        336: Currency;
     };
     /**
      * Constructs an instance of the base class `Currency`. The only instance of the base class `Currency` is `Currency.ETHER`.
