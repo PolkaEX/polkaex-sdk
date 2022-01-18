@@ -39,7 +39,7 @@ export class Currency {
 
   public static readonly SDN: Currency = new Currency(18, 'SDN', 'Shiden Coin')
 
-  public static readonly ASTR: Currency = new Currency(18, 'Astr', 'ASTR Coin')
+  public static readonly ASTR: Currency = new Currency(18, 'ASTR', 'ASTR Coin')
 
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
