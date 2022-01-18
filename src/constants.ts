@@ -28,7 +28,8 @@ export enum ChainId {
   OKEX_TESTNET = 65,
   DUSTY = 80,
   SHIBUYA = 81,
-  SHIDEN = 336
+  SHIDEN = 336,
+  ASTR = 592
 }
 
 export enum TradeType {
@@ -70,6 +71,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '0xc1AdcEF12dFc1B1C097ABa8302DCeeedAa3048CF',
   [ChainId.SHIBUYA]: '0x43C525Ed73f474685650f1C18132Ec172293E2b4',
   [ChainId.SHIDEN]: '0x20c05B9D6546e60556dE510D58ac100783ad46B1',
+  [ChainId.ASTR]: '0x20c05B9D6546e60556dE510D58ac100783ad46B1'
 }
 
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -98,6 +100,7 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '0xA4F42578c723A5B6781A9F49d586B8645ba85C31',
   [ChainId.SHIBUYA]: '0xd75729d2A56132FEdCEb2A67c406A05a62dA8132',
   [ChainId.SHIDEN]: '0xeB5ef73D8AdC049BEE0f87403B1c46c44CD8CF59',
+  [ChainId.ASTR]: '0x20c05B9D6546e60556dE510D58ac100783ad46B1'
 }
 
 export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
@@ -126,6 +129,7 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '',
   [ChainId.SHIBUYA]: '',
   [ChainId.SHIDEN]: '',
+  [ChainId.ASTR]: ''
 }
 
 export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
@@ -154,6 +158,7 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '0x80C7DD17B01855a6D2347444a0FCC36136a314de',
   [ChainId.SHIBUYA]: '',
   [ChainId.SHIDEN]: '',
+  [ChainId.ASTR]: ''
 }
 
 export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
@@ -182,6 +187,7 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c',
   [ChainId.SHIBUYA]: '',
   [ChainId.SHIDEN]: '',
+  [ChainId.ASTR]: ''
 }
 
 export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
@@ -210,6 +216,7 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '0x1b9d177CcdeA3c79B6c8F40761fc8Dc9d0500EAa',
   [ChainId.SHIBUYA]: '',
   [ChainId.SHIDEN]: '',
+  [ChainId.ASTR]: ''
 }
 
 export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
@@ -238,6 +245,7 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.DUSTY]: '',
   [ChainId.SHIBUYA]: '',
   [ChainId.SHIDEN]: '',
+  [ChainId.ASTR]: ''
 }
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
