@@ -194,7 +194,7 @@ export const WETH = {
   ),
   [ChainId.ASTR]: new Token(
     ChainId.ASTR,
-    '0x0f933Dc137D21cA519ae4C7E93f87a4C8EF365Ef',
+    '0xAeaaf0e2c81Af264101B9129C00F4440cCF0F720',
     18,
     'WASTR',
     'Wrapped ASTR'
